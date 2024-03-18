@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "b" {
-  bucket = "ndc-demo-trial"
+  bucket = "ndc-demo-live"
  
 }
 

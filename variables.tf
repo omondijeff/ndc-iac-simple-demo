@@ -7,7 +7,7 @@ variable "region" {
 variable "bucket_name" {
   description = "The name of the S3 bucket for the React app."
   type        = string
-  default     = "ndc-demo"
+  default     = "ndc-demo-live"
 }
 
 variable "index_document" {
